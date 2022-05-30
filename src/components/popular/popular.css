@@ -1,0 +1,32 @@
+.popular{
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.popular > .popular_link{
+    margin-top: 15px;
+}
+
+.popular > ol{
+    margin-top: 5px;
+}
+
+.popular > ol > div > li > a > h4{
+    font-size: 12px;
+}
+
+.popular > ol > div > li > a > p{
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+.popular > ol > div > li::marker {
+    color: #28979E;
+    font-weight: bold;
+}  
+
+.popular > ol > div > hr{
+    height: .1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

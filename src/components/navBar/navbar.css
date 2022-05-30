@@ -1,0 +1,39 @@
+.navBar{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+}
+
+.logo > img{
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rightNav, .rightNav{
+    display: flex;
+    align-items: center;
+
+}
+
+.navLinks{
+    display: flex;
+    align-items: baseline;
+    list-style: none;
+}
+
+.navLink{
+    margin:0 20px 0 20px ;
+}
+
+
+a:hover, .active{
+    color: #af695c;
+}
